@@ -1,0 +1,10 @@
+com\actitime\scripts\LoginTest.class
+com\actitime\pageobject\LoginPage.class
+com\actitime\scripts\TaskTest.class
+com\actitime\pageobject\OpenTaskPage.class
+com\actitime\pageobject\ActiveProjCustPage.class
+com\actitime\features\LoginFeature.class
+com\actitime\pageobject\BasePage.class
+com\actitime\pageobject\CreateNewCustPage.class
+com\actitime\pageobject\EnterTimeTrackPage.class
+com\actitime\features\TaskFeature.class

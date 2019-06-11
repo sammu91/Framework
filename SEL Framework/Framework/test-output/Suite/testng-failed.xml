@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="baseurl" value="http://127.0.0.1/login.do"/>
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.actitime.generic.MyTestNgListener"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <parameter name="baseurl" value="http://127.0.0.1/login.do"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.actitime.scripts.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
